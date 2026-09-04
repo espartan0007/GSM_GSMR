@@ -261,8 +261,9 @@ The output figure `convergence_gsm_rastrigin.png` will be saved in your project 
 
 ## Citation
 
-If you use this algorithm or code in your research, please cite the original paper:
+If you use this algorithm or repository in your research, please cite the original publication:
 
+```bibtex
 @Article{algorithms18040199,
   author         = {Sanchez, Oscar D. and Reyes, Luz M. and Valdivia-Gonz{\'a}lez, Arturo and Alanis, Alma Y. and Rangel-Heras, Eduardo},
   title          = {Gaslike Social Motility: Optimization Algorithm with Application in Image Thresholding Segmentation},
