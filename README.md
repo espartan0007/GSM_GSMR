@@ -147,4 +147,116 @@ Follow these steps to set up the environment and run the **Gaslike Social Motili
 Ensure you have **Python 3.8+** installed on your system. You can verify your installation by running:
 
 ```bash
+Here is a clean, GitHub-styled installation guide formatted in Markdown.
+
+```markdown
+# Installation Guide
+
+Follow these steps to set up the environment and run the **Gaslike Social Motility (GSM)** optimization benchmark.
+
+---
+
+## Prerequisites
+
+Ensure you have **Python 3.8+** installed on your system. You can verify your installation by running:
+
+```bash
 python --version
+
+```
+
+---
+
+## 1. Clone the Repository
+
+Clone this repository to your local machine and navigate into the project directory:
+
+```bash
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+cd your-repo-name
+
+```
+
+---
+
+## 2. Create a Virtual Environment (Optional but Recommended)
+
+It is recommended to use a virtual environment to manage dependencies:
+
+### On macOS / Linux:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+
+```
+
+### On Windows:
+
+```cmd
+python -m venv venv
+venv\Scripts\activate
+
+```
+
+---
+
+## 3. Install Dependencies
+
+Install the required Python packages (`numpy` and `matplotlib`):
+
+```bash
+pip install numpy matplotlib
+
+```
+
+Or, if a `requirements.txt` file is present in the repository:
+
+```bash
+pip install -r requirements.txt
+
+```
+
+---
+
+## 4. Run the Benchmark Script
+
+Execute the comparative analysis script (`GSM` vs `GSM-R` on the Rastrigin function):
+
+```bash
+python comparison_GSM_KES26.py
+
+```
+
+---
+
+## Expected Output
+
+Upon running the script, the execution metrics will print to your terminal, and a convergence graph will be generated and saved:
+
+```text
+============================================================
+GSM vs GSM-R  |  Rastrigin 50D
+============================================================
+Población : 50
+Iteraciones : 1000
+Semilla : 42
+
+Ejecutando GSM Original...
+Ejecutando GSM-R (Rank-Based)...
+
+============================================================
+RESULTADOS
+============================================================
+GSM   best final : ...
+GSM-R best final : ...
+
+Gráfica guardada: convergence_gsm_rastrigin.png
+
+```
+
+The output figure `convergence_gsm_rastrigin.png` will be saved in your project root folder.
+
+```
+
+```
