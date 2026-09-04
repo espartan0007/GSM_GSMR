@@ -1,5 +1,4 @@
-
-Here is a detailed breakdown and structured synthesis of the **Gaslike Social Motility (GSM)** optimization algorithm based on the provided research document:
+##Gaslike Social Motility (GSM) and Gaslike Social Motility Ranked (GSM-R) :
 
 ---
 
