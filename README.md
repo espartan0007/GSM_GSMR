@@ -265,7 +265,7 @@ If you use this algorithm or repository in your research, please cite the origin
 
 ```bibtex
 @Article{algorithms18040199,
-  author         = {Sanchez, Oscar D. and Reyes, Luz M. and Valdivia-Gonz{\'a}lez, Arturo and Alanis, Alma Y. and Rangel-Heras, Eduardo},
+  author         = {Oscar D. Sanchez,  Reyes Luz M. Reyes, and Arturo Valdivia-G and Alanis, Alma Y. and Rangel-Heras, Eduardo},
   title          = {Gaslike Social Motility: Optimization Algorithm with Application in Image Thresholding Segmentation},
   journal        = {Algorithms},
   volume         = {18},
