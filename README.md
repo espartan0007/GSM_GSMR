@@ -136,6 +136,8 @@ GSM was applied to **Multilevel Thresholding (MTH)** image segmentation by optim
 * **Evaluation Metrics:** Verified via PSNR, SSIM, FSIM, RMSE, QILV, UIQI, and HPSI[cite: 4]. GSM achieved high-quality segmentations with low computational overhead (only 50 particles, 100 iterations)[cite: 4].
 
 ```
+
+
 # Installation Guide
 
 Follow these steps to set up the environment and run the **Gaslike Social Motility (GSM)** optimization benchmark.
@@ -146,10 +148,7 @@ Follow these steps to set up the environment and run the **Gaslike Social Motili
 
 Ensure you have **Python 3.8+** installed on your system. You can verify your installation by running:
 
-```bash
-Here is a clean, GitHub-styled installation guide formatted in Markdown.
 
-```markdown
 # Installation Guide
 
 Follow these steps to set up the environment and run the **Gaslike Social Motility (GSM)** optimization benchmark.
@@ -172,8 +171,7 @@ python --version
 Clone this repository to your local machine and navigate into the project directory:
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/espartan0007/GSM_GSMR/)
 
 ```
 
